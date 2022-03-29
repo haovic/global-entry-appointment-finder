@@ -281,7 +281,6 @@ async def send_request(
     logger.debug(f"Sending request: {pretty_request}")
 
     while True:
-        print("DEBUG")
         try:
             loop = asyncio.get_event_loop()
             res = await loop.run_in_executor(
