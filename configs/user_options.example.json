@@ -1,0 +1,23 @@
+{
+    "dateTimeFormat" : "%Y-%m-%d %H:%M",
+    "email" : "",
+    "phoneNumber" : "",
+    "twilioNumber" : "",
+    "twilioSID" : "",
+    "twilioAuth" : "",
+    "refreshTime" : "1m",
+    "locations" : [
+        {
+            "name" : "DTW",
+            "locationId" : 5320,
+            "dateRanges" : [
+                {
+                    "startDate": "2022-07-10",
+                    "endDate": "2022-07-30",
+                    "dailyStartTime": "00:00",
+                    "dailyEndTime": "23:59"
+                }
+            ]
+        }
+    ]
+}
